@@ -6,7 +6,6 @@ on:
     branches:
       - 'develop'
       - 'trunk'
-      - 'master'
     paths:
       - '.github/workflows/coding-standards.yml'
       - '**.css'
@@ -32,12 +31,13 @@ on:
       - 'phpstan.neon.dist'
   workflow_dispatch:
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   test:
     name: ${{ matrix.label }}
+    permissions:
+      contents: read
     uses: johnbillion/plugin-infrastructure/.github/workflows/reusable-coding-standards.yml@trunk
     strategy:
       matrix:
