@@ -100,7 +100,7 @@ These are the steps to take to release a new version of Query Monitor (for contr
 1. Wait for [the Build action](https://github.com/johnbillion/query-monitor/actions/workflows/build.yml) to complete
 1. Enter the changelog into [the release on GitHub](https://github.com/johnbillion/query-monitor/releases) and publish it
 1. Approve the release on [the WordPress.org release management dashboard](https://wordpress.org/plugins/developers/releases/)
-1. `git push origin develop:master`
+1. `git push origin develop:trunk`
 
 ### Post Release
 

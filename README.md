@@ -283,7 +283,7 @@ See also my list of [WordPress Developer Plugins](https://johnblackbourn.com/wor
 
 ## Contributing
 
-Code contributions, feedback, and feature suggestions are very welcome. See [CONTRIBUTING.md](https://github.com/johnbillion/query-monitor/blob/master/CONTRIBUTING.md) for more details.
+Code contributions, feedback, and feature suggestions are very welcome. See [CONTRIBUTING.md](https://github.com/johnbillion/query-monitor/blob/trunk/CONTRIBUTING.md) for more details.
 
 ## Icon
 
