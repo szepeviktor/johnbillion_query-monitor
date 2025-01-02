@@ -70,8 +70,8 @@ To run tests individually, run one of:
 
 The individual integration and acceptance tests require the Docker containers to be running. To start and stop them, use:
 
-	composer test:start
-	composer test:stop
+	composer exec tests-start
+	composer exec tests-stop
 
 ## Releasing a New Version
 
@@ -117,4 +117,4 @@ New milestones are automatically created for the next major, minor, and patch re
 
 Assets such as screenshots and banners are stored in the `.wordpress-org` directory. These get deployed as part of the automated release process too.
 
-In order to deploy only changes to assets, push the change to the `deploy` branch and they will be deployed if they're the only changes in the branch since the last release. This allows for the "Tested up to" value to be bumped as well as assets to be updated in between releases.
+In order to deploy only changes to assets and the readme file, push the change to the `deploy` branch. This allows for the "Tested up to" value to be bumped as well as assets to be updated in between releases. Changes to files other than assets and the readme file will be ignored.
