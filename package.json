@@ -12,7 +12,7 @@
 	"devDependencies": {
 		"@jsdevtools/version-bump-prompt": "^6.1.0",
 		"sass": "^1",
-		"sharp-cli": "^4.1.1",
+		"sharp-cli": "^5.1.0",
 		"vitepress-plugin-rss": "^0.2.0",
 		"vitepress": "1.0.0-rc.25"
 	},
