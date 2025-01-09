@@ -51,6 +51,10 @@ abstract class QM_Dispatcher {
 	 */
 	abstract public function is_active();
 
+	public function output_fatal( $message, array $e ): void {
+		print_r( $e );
+	}
+
 	/**
 	 * @return bool
 	 */
