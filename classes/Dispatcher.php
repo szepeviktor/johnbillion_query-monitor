@@ -51,6 +51,17 @@ abstract class QM_Dispatcher {
 	 */
 	abstract public function is_active();
 
+	/**
+	 * @param string $message
+	 * @param mixed[] $e
+	 * @phpstan-param array{
+	 *   message: string,
+	 *   file: string,
+	 *   line: int,
+	 *   type?: int,
+	 *   trace?: mixed|null,
+	 * } $e
+	 */
 	public function output_fatal( $message, array $e ): void {
 		print_r( $e );
 	}
